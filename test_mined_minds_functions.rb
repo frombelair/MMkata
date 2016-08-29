@@ -39,11 +39,11 @@ class TestMinedMindsFunction < Minitest::Test
 	end
 
     def test_3_equals_mined
-    	assert_equal("mined",mined_minds(3))
+    	assert_equal("mined",mined_minds(6))
     end
 
     def test_5_equals_minds
-    	assert_equal("minds",mined_minds(5))
+    	assert_equal("minds",mined_minds(10))
     end
 
 end
