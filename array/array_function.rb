@@ -16,7 +16,6 @@ def array_mined_minds
 	end 
     my_array
    
-
 end
 
 
