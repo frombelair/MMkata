@@ -1,14 +1,7 @@
 
-number=1
-100.times do 
-	if number % 15 == 0
-		puts "minedminds"
-	elsif number % 3 == 0
-		puts "mined"
-	elsif number % 5 == 0
-		puts "minds"
-	else
-		puts number
-	end
-	number = number+1
-end 
+soda_type = ["sprite", 6,"mountain dew", 8.5225, "dr pepper",6+4]
+
+string_one = " your favorite drink is "
+ 
+puts " #{soda_type [4]} tastes delicious! "
+
